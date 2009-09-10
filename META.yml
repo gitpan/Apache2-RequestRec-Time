@@ -1,0 +1,13 @@
+--- #YAML:1.0
+name:                Apache2-RequestRec-Time
+version:             1.0
+abstract:            Bring microseconds to Apache2::RequestRec
+license:             Apache License, Version 2.0
+author:              
+    - Jan Pazdziora
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
