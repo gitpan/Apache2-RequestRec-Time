@@ -14,7 +14,9 @@ ModPerl::MM::WriteMakefile(
 	LICENSE => 'Apache License, Version 2.0',
 	VERSION_FROM => 'lib/Apache2/RequestRec/Time.pm',
 	ABSTRACT_FROM => 'lib/Apache2/RequestRec/Time.pm',
+	PREREQ_PM => { 'Test::More' => 0, },
 	INC => Apache2::Build->new->apxs(-q => 'EXTRA_INCLUDES'),
+	clean => { FILES => 't/TEST', },
 	dist => { POSTOP => '$(MV) $(DISTVNAME).tar$(SUFFIX) ..' },
 );
 

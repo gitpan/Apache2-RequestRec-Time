@@ -5,7 +5,7 @@ use 5.008000;
 use strict;
 use warnings FATAL => 'all';
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 use XSLoader ();
 XSLoader::load('Apache2::RequestRec::Time', $VERSION);
@@ -60,9 +60,19 @@ This is microsecond-ish variant of $r->request_time().
 
 =back
 
+=head1 VERSION
+
+1.1
+
+=head1 AVAILABLE FROM
+
+http://www.adelton.com/perl/Apache2-RequestRec-Time/
+
 =head1 AUTHOR
 
-Jan Pazdziora
+(c) 2009--2011 Jan Pazdziora.
+
+Contact the author at jpx dash perl at adelton dot com.
 
 =head1 LICENSE
 

@@ -4,7 +4,6 @@ MANIFEST
 README
 t/Apache/Test/Time.pm
 t/conf/extra.conf.in
-t/TEST
 t/TEST.PL
 t/time.t
 Time.xs

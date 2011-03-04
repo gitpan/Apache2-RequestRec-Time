@@ -14,7 +14,12 @@ the request, in microseconds.
 This module adds $r->request_duration_microseconds() method,
 and a couple of utility methods.
 
-Copyright 2009 Jan Pazdziora.
+Available from http://www.adelton.com/perl/Apache2-RequestRec-Time/
+and from your favorite CPAN site in the authors/id/JANPAZ/ directory.
+
+Contact the author at jpx dash perl at adelton dot com.
+
+Copyright 2009--2011 Jan Pazdziora.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this software except in compliance with the License.
